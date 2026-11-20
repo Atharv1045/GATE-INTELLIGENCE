@@ -1,0 +1,477 @@
+{
+  "schema_version": "2026.1",
+  "source_url": "https://gate2026.iitg.ac.in/exam-papers-and-syllabus.html",
+  "pattern_url": "https://gate2026.iitg.ac.in/question-paper-pattern.html",
+  "two_paper_combinations_url": "https://gate2026.iitg.ac.in/two-paper-combinations.html",
+  "total_marks": 100,
+  "total_questions": 65,
+  "duration_minutes": 180,
+  "papers": [
+    {
+      "code": "AE",
+      "name": "Aerospace Engineering",
+      "category": "Engineering",
+      "active_from": 2007,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "CE",
+        "ME",
+        "XE"
+      ]
+    },
+    {
+      "code": "AG",
+      "name": "Agricultural Engineering",
+      "category": "Engineering",
+      "active_from": 2007,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "CE"
+      ]
+    },
+    {
+      "code": "AR",
+      "name": "Architecture and Planning",
+      "category": "Architecture",
+      "active_from": 2007,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 0,
+      "subject_marks": 85,
+      "notes": "Part A Common (60 marks) + Part B1 (Architecture) or B2 (Planning) (25 marks)",
+      "allowed_second_papers": [
+        "CE",
+        "GE"
+      ]
+    },
+    {
+      "code": "BM",
+      "name": "Biomedical Engineering",
+      "category": "Engineering",
+      "active_from": 2020,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "BT",
+        "IN"
+      ]
+    },
+    {
+      "code": "BT",
+      "name": "Biotechnology",
+      "category": "Engineering & Science",
+      "active_from": 2007,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "BM",
+        "XL"
+      ]
+    },
+    {
+      "code": "CE",
+      "name": "Civil Engineering",
+      "category": "Engineering",
+      "active_from": 1984,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "AE",
+        "AG",
+        "AR",
+        "ES",
+        "GE",
+        "NM",
+        "XE"
+      ]
+    },
+    {
+      "code": "CH",
+      "name": "Chemical Engineering",
+      "category": "Engineering",
+      "active_from": 1984,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "ES",
+        "PE",
+        "XE"
+      ]
+    },
+    {
+      "code": "CS",
+      "name": "Computer Science and Information Technology",
+      "category": "Engineering",
+      "active_from": 1987,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "DA",
+        "EC",
+        "GE",
+        "MA",
+        "PH",
+        "ST"
+      ]
+    },
+    {
+      "code": "CY",
+      "name": "Chemistry",
+      "category": "Science",
+      "active_from": 1984,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 0,
+      "subject_marks": 85,
+      "allowed_second_papers": [
+        "XE",
+        "XL"
+      ]
+    },
+    {
+      "code": "DA",
+      "name": "Data Science and Artificial Intelligence",
+      "category": "Engineering & AI",
+      "active_from": 2024,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 0,
+      "subject_marks": 85,
+      "notes": "Introduced in GATE 2024; mathematical foundations integrated directly into 85-mark core syllabus",
+      "allowed_second_papers": [
+        "CS",
+        "EC",
+        "EE",
+        "MA",
+        "ME",
+        "PH",
+        "ST",
+        "XE"
+      ]
+    },
+    {
+      "code": "EC",
+      "name": "Electronics and Communication Engineering",
+      "category": "Engineering",
+      "active_from": 1984,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "CS",
+        "DA",
+        "EE",
+        "IN",
+        "PH"
+      ]
+    },
+    {
+      "code": "EE",
+      "name": "Electrical Engineering",
+      "category": "Engineering",
+      "active_from": 1984,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "DA",
+        "EC",
+        "IN",
+        "PH"
+      ]
+    },
+    {
+      "code": "ES",
+      "name": "Environmental Science and Engineering",
+      "category": "Engineering",
+      "active_from": 2021,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "CE",
+        "CH",
+        "GE"
+      ]
+    },
+    {
+      "code": "EY",
+      "name": "Ecology and Evolution",
+      "category": "Science",
+      "active_from": 2014,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 0,
+      "subject_marks": 85,
+      "allowed_second_papers": [
+        "XL"
+      ]
+    },
+    {
+      "code": "GE",
+      "name": "Geomatics Engineering",
+      "category": "Engineering",
+      "active_from": 2022,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 0,
+      "subject_marks": 85,
+      "notes": "Part A Common (55 marks) + Part B1 (Surveying & Mapping) or B2 (Image Processing) (30 marks)",
+      "allowed_second_papers": [
+        "AR",
+        "CE",
+        "CS",
+        "ES",
+        "GG"
+      ]
+    },
+    {
+      "code": "GG",
+      "name": "Geology and Geophysics",
+      "category": "Science",
+      "active_from": 1984,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 0,
+      "subject_marks": 85,
+      "notes": "Part A Common (25 marks) + Part B1 (Geology) or B2 (Geophysics) (60 marks)",
+      "allowed_second_papers": [
+        "GE"
+      ]
+    },
+    {
+      "code": "IN",
+      "name": "Instrumentation Engineering",
+      "category": "Engineering",
+      "active_from": 1995,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "BM",
+        "EC",
+        "EE",
+        "ME"
+      ]
+    },
+    {
+      "code": "MA",
+      "name": "Mathematics",
+      "category": "Science",
+      "active_from": 1984,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 0,
+      "subject_marks": 85,
+      "allowed_second_papers": [
+        "CS",
+        "DA",
+        "PH",
+        "ST"
+      ]
+    },
+    {
+      "code": "ME",
+      "name": "Mechanical Engineering",
+      "category": "Engineering",
+      "active_from": 1984,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "AE",
+        "DA",
+        "IN",
+        "NM",
+        "PI",
+        "XE"
+      ]
+    },
+    {
+      "code": "MN",
+      "name": "Mining Engineering",
+      "category": "Engineering",
+      "active_from": 1984,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "CE",
+        "GG"
+      ]
+    },
+    {
+      "code": "MT",
+      "name": "Metallurgical Engineering",
+      "category": "Engineering",
+      "active_from": 1984,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "XE"
+      ]
+    },
+    {
+      "code": "NM",
+      "name": "Naval Architecture and Marine Engineering",
+      "category": "Engineering",
+      "active_from": 2022,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "CE",
+        "ME"
+      ]
+    },
+    {
+      "code": "PE",
+      "name": "Petroleum Engineering",
+      "category": "Engineering",
+      "active_from": 2016,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "CH"
+      ]
+    },
+    {
+      "code": "PH",
+      "name": "Physics",
+      "category": "Science",
+      "active_from": 1984,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 0,
+      "subject_marks": 85,
+      "allowed_second_papers": [
+        "CS",
+        "DA",
+        "EC",
+        "EE",
+        "MA",
+        "XE"
+      ]
+    },
+    {
+      "code": "PI",
+      "name": "Production and Industrial Engineering",
+      "category": "Engineering",
+      "active_from": 1995,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": [
+        "ME",
+        "XE"
+      ]
+    },
+    {
+      "code": "ST",
+      "name": "Statistics",
+      "category": "Science",
+      "active_from": 2019,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 0,
+      "subject_marks": 85,
+      "allowed_second_papers": [
+        "CS",
+        "DA",
+        "MA",
+        "XH"
+      ]
+    },
+    {
+      "code": "TF",
+      "name": "Textile Engineering and Fibre Science",
+      "category": "Engineering",
+      "active_from": 1995,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 13,
+      "subject_marks": 72,
+      "allowed_second_papers": []
+    },
+    {
+      "code": "XE",
+      "name": "Engineering Sciences",
+      "category": "Interdisciplinary",
+      "active_from": 1984,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 15,
+      "subject_marks": 70,
+      "notes": "Section A (Engineering Mathematics, 15 marks compulsory) + any TWO optional sections (2 x 35 = 70 marks): B (Fluid Mechanics), C (Materials Science), D (Solid Mechanics), E (Thermodynamics), F (Polymer Science), G (Food Technology), H (Atmospheric & Oceanic Sciences)",
+      "allowed_second_papers": [
+        "AE",
+        "CE",
+        "CH",
+        "CY",
+        "DA",
+        "ME",
+        "MT",
+        "PH",
+        "PI"
+      ]
+    },
+    {
+      "code": "XH",
+      "name": "Humanities and Social Sciences",
+      "category": "Humanities",
+      "active_from": 2021,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 0,
+      "subject_marks": 85,
+      "notes": "Section B1 (Reasoning & Comprehension, 25 marks compulsory) + any ONE optional section (60 marks): C1 (Economics), C2 (English), C3 (Linguistics), C4 (Philosophy), C5 (Psychology), C6 (Sociology)",
+      "allowed_second_papers": [
+        "ST"
+      ]
+    },
+    {
+      "code": "XL",
+      "name": "Life Sciences",
+      "category": "Science",
+      "active_from": 1984,
+      "active_to": null,
+      "ga_marks": 15,
+      "eng_math_marks": 0,
+      "subject_marks": 85,
+      "notes": "Section P (Chemistry, 25 marks compulsory) + any TWO optional sections (2 x 30 = 60 marks): Q (Biochemistry), R (Botany), S (Microbiology), T (Zoology), U (Food Technology)",
+      "allowed_second_papers": [
+        "BT",
+        "CY",
+        "EY"
+      ]
+    }
+  ]
+}

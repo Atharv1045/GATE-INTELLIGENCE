@@ -1,0 +1,186 @@
+{
+  "paper_code": "ME",
+  "paper_name": "Mechanical Engineering",
+  "syllabus_version": "2026.1",
+  "valid_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "source_url": "https://gate2026.iitg.ac.in/doc/GATE2026_Syllabus/ME_2026_Syllabus.pdf",
+  "subjects": [
+    {
+      "code": "GA",
+      "name": "General Aptitude",
+      "weightage_estimate": 0.15,
+      "topics": [
+        {
+          "name": "Verbal Aptitude",
+          "subtopics": [
+            "English grammar",
+            "Sentence completion",
+            "Verbal analogies",
+            "Word groups",
+            "Reading comprehension"
+          ],
+          "keywords": [
+            "grammar",
+            "vocabulary",
+            "comprehension",
+            "inference",
+            "passage"
+          ]
+        },
+        {
+          "name": "Quantitative Aptitude",
+          "subtopics": [
+            "Data interpretation",
+            "Permutations and combinations",
+            "Mensuration and geometry",
+            "Elementary statistics and probability"
+          ],
+          "keywords": [
+            "percentage",
+            "ratio",
+            "work",
+            "time",
+            "pie chart",
+            "bar graph"
+          ]
+        },
+        {
+          "name": "Analytical and Spatial Aptitude",
+          "subtopics": [
+            "Logic: deduction and induction",
+            "Analogy",
+            "Numerical relations",
+            "Transformation of shapes: translation, rotation, scaling, mirroring, assembling, grouping"
+          ],
+          "keywords": [
+            "syllogism",
+            "seating",
+            "folding",
+            "mirror",
+            "rotation",
+            "spatial"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ME-S1",
+      "name": "Engineering Mathematics",
+      "weightage_estimate": 0.13,
+      "topics": [
+        {
+          "name": "Linear Algebra, Calculus, ODE/PDE & Numerical Methods",
+          "subtopics": [
+            "Matrix algebra",
+            "Calculus",
+            "ODEs and PDEs",
+            "Probability and statistics",
+            "Numerical integration (Trapezoidal, Simpson) and Newton-Raphson, Runge-Kutta"
+          ],
+          "keywords": [
+            "simpson",
+            "trapezoidal",
+            "newton-raphson",
+            "runge-kutta",
+            "eigenvalue",
+            "laplace"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ME-S2",
+      "name": "Applied Mechanics and Design",
+      "weightage_estimate": 0.25,
+      "topics": [
+        {
+          "name": "Engineering Mechanics, Strength of Materials, Theory of Machines, Vibrations & Machine Design",
+          "subtopics": [
+            "Trusses and frames, friction, rolling",
+            "Stress-strain, Mohr's circle, bending and shear stress, deflection of beams, torsion, columns",
+            "Kinematics of mechanisms, gears and gear trains, flywheels, governors",
+            "Free and forced single-DOF vibrations",
+            "Fatigue strength, Soderberg/Goodman, bearings, clutches, brakes"
+          ],
+          "keywords": [
+            "mohr's circle",
+            "bending moment",
+            "torsion",
+            "euler buckling",
+            "gear train",
+            "natural frequency",
+            "damping ratio",
+            "soderberg",
+            "goodman"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ME-S3",
+      "name": "Fluid Mechanics and Thermal Sciences",
+      "weightage_estimate": 0.24,
+      "topics": [
+        {
+          "name": "Fluid Mechanics, Heat Transfer, Thermodynamics & Applications",
+          "subtopics": [
+            "Bernoulli's equation, boundary layer, pipe flow",
+            "Conduction, fins, lump capacitance, convection (Nusselt, Prandtl, Reynolds), radiation, heat exchangers (LMTD, NTU)",
+            "First and Second laws of thermodynamics, entropy, availability",
+            "Rankine, Brayton, Otto, Diesel cycles, vapour compression refrigeration, psychrometry, turbomachinery"
+          ],
+          "keywords": [
+            "bernoulli",
+            "reynolds number",
+            "boundary layer",
+            "lmtd",
+            "ntu",
+            "nusselt",
+            "biot number",
+            "entropy",
+            "rankine",
+            "brayton",
+            "otto",
+            "cop"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ME-S4",
+      "name": "Materials, Manufacturing and Industrial Engineering",
+      "weightage_estimate": 0.23,
+      "topics": [
+        {
+          "name": "Engineering Materials, Casting, Forming, Machining, Metrology & Operations Research",
+          "subtopics": [
+            "Phase diagrams, heat treatment",
+            "Casting, rolling, forging, extrusion, welding",
+            "Mechanics of machining, Merchant's circle, Taylor's tool life",
+            "Limits, fits and tolerances, NC/CNC",
+            "Linear programming, simplex, transportation, PERT/CPM, EOQ inventory, queuing models"
+          ],
+          "keywords": [
+            "taylor's tool life",
+            "merchant's circle",
+            "casting",
+            "solidification",
+            "welding",
+            "tolerance",
+            "simplex",
+            "pert",
+            "cpm",
+            "eoq"
+          ]
+        }
+      ]
+    }
+  ]
+}

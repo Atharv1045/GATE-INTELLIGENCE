@@ -1,0 +1,759 @@
+{
+  "paper_code": "CS",
+  "paper_name": "Computer Science and Information Technology",
+  "syllabus_version": "2026.1",
+  "valid_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "source_url": "https://gate2026.iitg.ac.in/doc/GATE2026_Syllabus/CS_2026_Syllabus.pdf",
+  "subjects": [
+    {
+      "code": "GA",
+      "name": "General Aptitude",
+      "weightage_estimate": 0.15,
+      "topics": [
+        {
+          "name": "Verbal Aptitude",
+          "subtopics": [
+            "English grammar",
+            "Sentence completion",
+            "Verbal analogies",
+            "Word groups",
+            "Reading comprehension"
+          ],
+          "keywords": [
+            "grammar",
+            "vocabulary",
+            "comprehension",
+            "inference",
+            "passage"
+          ]
+        },
+        {
+          "name": "Quantitative Aptitude",
+          "subtopics": [
+            "Data interpretation",
+            "Permutations and combinations",
+            "Mensuration and geometry",
+            "Elementary statistics and probability"
+          ],
+          "keywords": [
+            "percentage",
+            "ratio",
+            "work",
+            "time",
+            "pie chart",
+            "bar graph"
+          ]
+        },
+        {
+          "name": "Analytical and Spatial Aptitude",
+          "subtopics": [
+            "Logic: deduction and induction",
+            "Analogy",
+            "Numerical relations",
+            "Transformation of shapes: translation, rotation, scaling, mirroring, assembling, grouping"
+          ],
+          "keywords": [
+            "syllogism",
+            "seating",
+            "folding",
+            "mirror",
+            "rotation",
+            "spatial"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CS-S1",
+      "name": "Engineering Mathematics",
+      "weightage_estimate": 0.13,
+      "topics": [
+        {
+          "name": "Discrete Mathematics",
+          "subtopics": [
+            "Propositional and first order logic",
+            "Sets, relations, functions, partial orders and lattices",
+            "Monoids, Groups",
+            "Graphs: connectivity, matching, coloring",
+            "Combinatorics: counting, recurrence relations, generating functions"
+          ],
+          "keywords": [
+            "propositional",
+            "predicate",
+            "tautology",
+            "poset",
+            "lattice",
+            "group",
+            "bipartite",
+            "chromatic",
+            "planar",
+            "recurrence",
+            "generating function",
+            "pigeonhole"
+          ]
+        },
+        {
+          "name": "Linear Algebra",
+          "subtopics": [
+            "Matrices, determinants",
+            "System of linear equations",
+            "Eigenvalues and eigenvectors",
+            "LU decomposition"
+          ],
+          "keywords": [
+            "matrix",
+            "determinant",
+            "rank",
+            "eigenvalue",
+            "eigenvector",
+            "trace",
+            "lu decomposition",
+            "linear equation",
+            "nullity"
+          ]
+        },
+        {
+          "name": "Calculus",
+          "subtopics": [
+            "Limits, continuity and differentiability",
+            "Maxima and minima",
+            "Mean value theorem",
+            "Integration"
+          ],
+          "keywords": [
+            "limit",
+            "continuity",
+            "differentiable",
+            "maxima",
+            "minima",
+            "definite integral",
+            "mean value theorem",
+            "rollel"
+          ]
+        },
+        {
+          "name": "Probability and Statistics",
+          "subtopics": [
+            "Random variables",
+            "Uniform, normal, exponential, Poisson and binomial distributions",
+            "Mean, median, mode and standard deviation",
+            "Conditional probability and Bayes theorem"
+          ],
+          "keywords": [
+            "bayes",
+            "conditional probability",
+            "random variable",
+            "expectation",
+            "variance",
+            "poisson",
+            "binomial",
+            "normal distribution",
+            "exponential distribution"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CS-S2",
+      "name": "Digital Logic",
+      "weightage_estimate": 0.06,
+      "topics": [
+        {
+          "name": "Boolean Algebra and Minimization",
+          "subtopics": [
+            "Boolean algebra",
+            "Karnaugh maps",
+            "Implicants and prime implicants"
+          ],
+          "keywords": [
+            "boolean",
+            "k-map",
+            "karnaugh",
+            "minterm",
+            "maxterm",
+            "sop",
+            "pos",
+            "prime implicant",
+            "nand",
+            "nor",
+            "xor"
+          ]
+        },
+        {
+          "name": "Combinational and Sequential Circuits",
+          "subtopics": [
+            "Multiplexers, decoders, adders",
+            "Flip-flops, counters, shift registers",
+            "Finite state machines"
+          ],
+          "keywords": [
+            "multiplexer",
+            "mux",
+            "decoder",
+            "adder",
+            "flip-flop",
+            "jk",
+            "d flip-flop",
+            "ripple counter",
+            "synchronous counter",
+            "propagation delay",
+            "setup time",
+            "hold time"
+          ]
+        },
+        {
+          "name": "Number Representations and Computer Arithmetic",
+          "subtopics": [
+            "Fixed and floating point representations",
+            "IEEE 754 standard",
+            "2's complement arithmetic"
+          ],
+          "keywords": [
+            "2's complement",
+            "radix",
+            "hexadecimal",
+            "ieee 754",
+            "floating point",
+            "mantissa",
+            "exponent",
+            "overflow"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CS-S3",
+      "name": "Computer Organization and Architecture",
+      "weightage_estimate": 0.09,
+      "topics": [
+        {
+          "name": "Machine Instructions and Addressing Modes",
+          "subtopics": [
+            "Instruction formats",
+            "Addressing modes",
+            "ALU, data-path and control unit"
+          ],
+          "keywords": [
+            "addressing mode",
+            "opcode",
+            "instruction format",
+            "alu",
+            "datapath",
+            "microprogrammed",
+            "hardwired",
+            "register"
+          ]
+        },
+        {
+          "name": "Instruction Pipelining",
+          "subtopics": [
+            "Pipeline stages",
+            "Structural, data and control hazards",
+            "Operand forwarding and stall cycles",
+            "Speedup and throughput"
+          ],
+          "keywords": [
+            "pipeline",
+            "hazard",
+            "raw",
+            "war",
+            "waw",
+            "forwarding",
+            "branch prediction",
+            "stall",
+            "cpi",
+            "speedup"
+          ]
+        },
+        {
+          "name": "Memory Hierarchy and I/O Organization",
+          "subtopics": [
+            "Cache memory mappings (direct, associative, set-associative)",
+            "Write policies and average memory access time (AMAT)",
+            "Main memory and secondary storage",
+            "I/O interface (interrupt and DMA mode)"
+          ],
+          "keywords": [
+            "cache",
+            "set associative",
+            "direct mapped",
+            "tag",
+            "write back",
+            "write through",
+            "amat",
+            "hit ratio",
+            "miss penalty",
+            "dma",
+            "interrupt"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CS-S4",
+      "name": "Programming and Data Structures",
+      "weightage_estimate": 0.1,
+      "topics": [
+        {
+          "name": "Programming in C",
+          "subtopics": [
+            "Pointers, arrays, strings",
+            "Recursion",
+            "Scope, lifetime and storage classes",
+            "Function call mechanisms"
+          ],
+          "keywords": [
+            "pointer",
+            "malloc",
+            "static",
+            "extern",
+            "recursion",
+            "struct",
+            "union",
+            "call by value",
+            "call by reference",
+            "printf"
+          ]
+        },
+        {
+          "name": "Linear Data Structures",
+          "subtopics": [
+            "Arrays",
+            "Stacks and queues",
+            "Linked lists"
+          ],
+          "keywords": [
+            "stack",
+            "queue",
+            "linked list",
+            "infix",
+            "postfix",
+            "circular queue"
+          ]
+        },
+        {
+          "name": "Trees, Heaps and Graphs",
+          "subtopics": [
+            "Binary trees",
+            "Binary search trees",
+            "AVL trees",
+            "Binary heaps",
+            "Graphs"
+          ],
+          "keywords": [
+            "binary tree",
+            "bst",
+            "binary search tree",
+            "avl",
+            "rotation",
+            "min heap",
+            "max heap",
+            "heapify",
+            "preorder",
+            "inorder",
+            "postorder"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CS-S5",
+      "name": "Algorithms",
+      "weightage_estimate": 0.08,
+      "topics": [
+        {
+          "name": "Asymptotic Analysis and Searching/Sorting",
+          "subtopics": [
+            "Asymptotic worst-case time and space complexity",
+            "Master theorem",
+            "Sorting: quicksort, mergesort, heapsort, insertion sort",
+            "Hashing"
+          ],
+          "keywords": [
+            "big-o",
+            "theta",
+            "omega",
+            "asymptotic",
+            "master theorem",
+            "quicksort",
+            "mergesort",
+            "heapsort",
+            "hash table",
+            "collision",
+            "chaining",
+            "open addressing"
+          ]
+        },
+        {
+          "name": "Algorithm Design Techniques",
+          "subtopics": [
+            "Greedy algorithms",
+            "Dynamic programming",
+            "Divide-and-conquer"
+          ],
+          "keywords": [
+            "greedy",
+            "dynamic programming",
+            "divide and conquer",
+            "knapsack",
+            "huffman",
+            "longest common subsequence",
+            "lcs",
+            "matrix chain"
+          ]
+        },
+        {
+          "name": "Graph Algorithms",
+          "subtopics": [
+            "Breadth-first and depth-first traversals",
+            "Minimum spanning trees (Prim, Kruskal)",
+            "Shortest paths (Dijkstra, Bellman-Ford, Floyd-Warshall)"
+          ],
+          "keywords": [
+            "bfs",
+            "dfs",
+            "topological sort",
+            "minimum spanning tree",
+            "mst",
+            "kruskal",
+            "prim",
+            "dijkstra",
+            "bellman-ford",
+            "floyd-warshall"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CS-S6",
+      "name": "Theory of Computation",
+      "weightage_estimate": 0.07,
+      "topics": [
+        {
+          "name": "Regular Languages and Finite Automata",
+          "subtopics": [
+            "Deterministic and non-deterministic finite automata",
+            "Regular expressions",
+            "Pumping lemma for regular languages",
+            "Closure properties and minimization"
+          ],
+          "keywords": [
+            "dfa",
+            "nfa",
+            "regular expression",
+            "pumping lemma",
+            "myhill-nerode",
+            "minimal dfa",
+            "regular language"
+          ]
+        },
+        {
+          "name": "Context-Free Languages and Pushdown Automata",
+          "subtopics": [
+            "Context-free grammars",
+            "Push-down automata",
+            "Ambiguity and normal forms",
+            "Closure properties of CFLs"
+          ],
+          "keywords": [
+            "cfg",
+            "context-free",
+            "pda",
+            "pushdown automata",
+            "chomsky normal form",
+            "dcfl",
+            "ambiguous grammar"
+          ]
+        },
+        {
+          "name": "Turing Machines and Undecidability",
+          "subtopics": [
+            "Turing machines",
+            "Recursive and recursively enumerable languages",
+            "Halting problem, Rice's theorem and reductions"
+          ],
+          "keywords": [
+            "turing machine",
+            "decidable",
+            "undecidable",
+            "recursive",
+            "recursively enumerable",
+            "halting problem",
+            "rice's theorem"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CS-S7",
+      "name": "Compiler Design",
+      "weightage_estimate": 0.05,
+      "topics": [
+        {
+          "name": "Lexical Analysis and Parsing",
+          "subtopics": [
+            "Lexical analysis",
+            "LL(1), SLR, CLR, LALR parsers",
+            "FIRST and FOLLOW sets"
+          ],
+          "keywords": [
+            "lexical",
+            "token",
+            "first",
+            "follow",
+            "ll(1)",
+            "lr(0)",
+            "slr",
+            "lalr",
+            "clr",
+            "shift-reduce",
+            "reduce-reduce",
+            "handle"
+          ]
+        },
+        {
+          "name": "Syntax-Directed Translation and Code Optimization",
+          "subtopics": [
+            "Synthesized and inherited attributes",
+            "Three-address code and SSA",
+            "Local optimization and data flow analysis (liveness, constant propagation, CSE)"
+          ],
+          "keywords": [
+            "syntax-directed",
+            "sdt",
+            "synthesized",
+            "inherited",
+            "three-address code",
+            "dag",
+            "basic block",
+            "liveness",
+            "constant propagation",
+            "common subexpression"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CS-S8",
+      "name": "Operating System",
+      "weightage_estimate": 0.09,
+      "topics": [
+        {
+          "name": "Processes, Threads and CPU Scheduling",
+          "subtopics": [
+            "System calls, processes, threads",
+            "CPU scheduling algorithms (FCFS, SJF, SRTF, Round Robin, Priority)"
+          ],
+          "keywords": [
+            "process",
+            "thread",
+            "fork",
+            "system call",
+            "scheduling",
+            "fcfs",
+            "sjf",
+            "srtf",
+            "round robin",
+            "turnaround time",
+            "waiting time",
+            "context switch"
+          ]
+        },
+        {
+          "name": "Inter-Process Communication and Deadlocks",
+          "subtopics": [
+            "Critical section problem",
+            "Semaphores and mutex",
+            "Deadlock prevention, avoidance (Banker's algorithm) and detection"
+          ],
+          "keywords": [
+            "critical section",
+            "mutex",
+            "semaphore",
+            "peterson",
+            "deadlock",
+            "banker's algorithm",
+            "safe state",
+            "starvation",
+            "race condition"
+          ]
+        },
+        {
+          "name": "Memory Management and File Systems",
+          "subtopics": [
+            "Paging and segmentation",
+            "Virtual memory and page replacement (FIFO, Optimal, LRU)",
+            "TLB and effective access time",
+            "Disk scheduling (SCAN, C-SCAN, SSTF) and file allocation (inodes)"
+          ],
+          "keywords": [
+            "paging",
+            "page table",
+            "tlb",
+            "virtual memory",
+            "page fault",
+            "lru",
+            "belady",
+            "thrashing",
+            "inode",
+            "disk scheduling",
+            "sstf",
+            "scan"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CS-S9",
+      "name": "Databases",
+      "weightage_estimate": 0.08,
+      "topics": [
+        {
+          "name": "ER Model, Relational Algebra and SQL",
+          "subtopics": [
+            "ER-model",
+            "Relational algebra and tuple relational calculus",
+            "SQL queries, joins, aggregates, nested subqueries"
+          ],
+          "keywords": [
+            "er diagram",
+            "relational algebra",
+            "tuple calculus",
+            "sql",
+            "select",
+            "group by",
+            "having",
+            "natural join",
+            "outer join",
+            "foreign key"
+          ]
+        },
+        {
+          "name": "Normalization and Database Design",
+          "subtopics": [
+            "Functional dependencies",
+            "Candidate keys and closure",
+            "Normal forms (1NF, 2NF, 3NF, BCNF)",
+            "Lossless join and dependency preservation"
+          ],
+          "keywords": [
+            "functional dependency",
+            "candidate key",
+            "superkey",
+            "1nf",
+            "2nf",
+            "3nf",
+            "bcnf",
+            "lossless",
+            "dependency preserving"
+          ]
+        },
+        {
+          "name": "Indexing, Transactions and Concurrency Control",
+          "subtopics": [
+            "File organization, B and B+ trees",
+            "ACID properties",
+            "Conflict and view serializability",
+            "Two-phase locking (2PL) and timestamp ordering"
+          ],
+          "keywords": [
+            "b-tree",
+            "b+ tree",
+            "clustering index",
+            "transaction",
+            "acid",
+            "conflict serializable",
+            "view serializable",
+            "precedence graph",
+            "2pl",
+            "two-phase locking",
+            "recoverability",
+            "cascadeless"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CS-S10",
+      "name": "Computer Networks",
+      "weightage_estimate": 0.09,
+      "topics": [
+        {
+          "name": "OSI/TCP-IP Stack and Data Link Layer",
+          "subtopics": [
+            "Framing and error detection (CRC, Hamming)",
+            "Sliding window protocols (Stop-and-Wait, Go-Back-N, Selective Repeat)",
+            "Medium Access Control (CSMA/CD, Aloha) and Ethernet bridging"
+          ],
+          "keywords": [
+            "crc",
+            "hamming",
+            "stop-and-wait",
+            "go-back-n",
+            "selective repeat",
+            "efficiency",
+            "propagation delay",
+            "csma/cd",
+            "aloha",
+            "ethernet",
+            "spanning tree"
+          ]
+        },
+        {
+          "name": "Network Layer and Routing",
+          "subtopics": [
+            "IPv4 addressing, subnetting and CIDR",
+            "IP fragmentation, ARP, DHCP, ICMP, NAT",
+            "Distance vector and link state routing (RIP, OSPF)"
+          ],
+          "keywords": [
+            "ipv4",
+            "subnet mask",
+            "cidr",
+            "supernetting",
+            "fragmentation",
+            "mtu",
+            "arp",
+            "icmp",
+            "dhcp",
+            "nat",
+            "distance vector",
+            "count to infinity",
+            "link state",
+            "ospf"
+          ]
+        },
+        {
+          "name": "Transport and Application Layers",
+          "subtopics": [
+            "UDP and TCP headers, connection management",
+            "TCP flow control and congestion control (Slow Start, AIMD)",
+            "Sockets, DNS, SMTP, HTTP, FTP"
+          ],
+          "keywords": [
+            "tcp",
+            "udp",
+            "three-way handshake",
+            "congestion window",
+            "cwnd",
+            "slow start",
+            "ssthresh",
+            "rtt",
+            "socket",
+            "dns",
+            "http",
+            "smtp",
+            "ftp"
+          ]
+        }
+      ]
+    }
+  ]
+}

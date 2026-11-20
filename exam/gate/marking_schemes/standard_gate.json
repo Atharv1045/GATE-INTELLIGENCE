@@ -1,0 +1,46 @@
+{
+  "scheme_id": "gate_standard_2021_2026",
+  "name": "Official GATE Marking Scheme (MCQ / MSQ / NAT)",
+  "source_url": "https://gate2026.iitg.ac.in/question-paper-pattern.html",
+  "total_questions": 65,
+  "total_marks": 100,
+  "duration_minutes": 180,
+  "sections": {
+    "general_aptitude": {
+      "total_questions": 10,
+      "one_mark_questions": 5,
+      "two_mark_questions": 5,
+      "total_marks": 15
+    },
+    "technical_and_math": {
+      "total_questions": 55,
+      "one_mark_questions": 25,
+      "two_mark_questions": 30,
+      "total_marks": 85
+    }
+  },
+  "question_types": {
+    "MCQ": {
+      "description": "Multiple Choice Question \u2014 1 correct option out of 4 (A, B, C, D)",
+      "negative_marking": true,
+      "penalty_1_mark": 0.3333333333,
+      "penalty_2_mark": 0.6666666667,
+      "partial_credit": false
+    },
+    "MSQ": {
+      "description": "Multiple Select Question \u2014 1 or more correct options out of 4 (A, B, C, D)",
+      "negative_marking": false,
+      "penalty_1_mark": 0.0,
+      "penalty_2_mark": 0.0,
+      "partial_credit": false
+    },
+    "NAT": {
+      "description": "Numerical Answer Type \u2014 real number entered via virtual keypad",
+      "negative_marking": false,
+      "penalty_1_mark": 0.0,
+      "penalty_2_mark": 0.0,
+      "partial_credit": false,
+      "default_tolerance": 0.01
+    }
+  }
+}

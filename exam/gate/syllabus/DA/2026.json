@@ -1,0 +1,294 @@
+{
+  "paper_code": "DA",
+  "paper_name": "Data Science and Artificial Intelligence",
+  "syllabus_version": "2026.1",
+  "valid_years": [
+    2024,
+    2025,
+    2026
+  ],
+  "source_url": "https://gate2026.iitg.ac.in/doc/GATE2026_Syllabus/DA_2026_Syllabus.pdf",
+  "subjects": [
+    {
+      "code": "GA",
+      "name": "General Aptitude",
+      "weightage_estimate": 0.15,
+      "topics": [
+        {
+          "name": "Verbal Aptitude",
+          "subtopics": [
+            "English grammar",
+            "Sentence completion",
+            "Verbal analogies",
+            "Word groups",
+            "Reading comprehension"
+          ],
+          "keywords": [
+            "grammar",
+            "vocabulary",
+            "comprehension",
+            "inference",
+            "passage"
+          ]
+        },
+        {
+          "name": "Quantitative Aptitude",
+          "subtopics": [
+            "Data interpretation",
+            "Permutations and combinations",
+            "Mensuration and geometry",
+            "Elementary statistics and probability"
+          ],
+          "keywords": [
+            "percentage",
+            "ratio",
+            "work",
+            "time",
+            "pie chart",
+            "bar graph"
+          ]
+        },
+        {
+          "name": "Analytical and Spatial Aptitude",
+          "subtopics": [
+            "Logic: deduction and induction",
+            "Analogy",
+            "Numerical relations",
+            "Transformation of shapes: translation, rotation, scaling, mirroring, assembling, grouping"
+          ],
+          "keywords": [
+            "syllogism",
+            "seating",
+            "folding",
+            "mirror",
+            "rotation",
+            "spatial"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DA-S1",
+      "name": "Probability and Statistics",
+      "weightage_estimate": 0.2,
+      "topics": [
+        {
+          "name": "Probability Axioms and Distributions",
+          "subtopics": [
+            "Counting, probability axioms, Bayes theorem",
+            "Conditional expectation and variance",
+            "Discrete and continuous distributions (Bernoulli, binomial, Poisson, uniform, exponential, normal, t, chi-squared)",
+            "Central limit theorem"
+          ],
+          "keywords": [
+            "bayes",
+            "pmf",
+            "pdf",
+            "cdf",
+            "covariance",
+            "correlation",
+            "central limit theorem",
+            "chi-squared"
+          ]
+        },
+        {
+          "name": "Statistical Inference",
+          "subtopics": [
+            "Confidence intervals",
+            "z-test, t-test, chi-squared test",
+            "Maximum likelihood estimation (MLE)",
+            "MAP estimation"
+          ],
+          "keywords": [
+            "hypothesis test",
+            "p-value",
+            "z-test",
+            "t-test",
+            "maximum likelihood",
+            "mle",
+            "confidence interval"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DA-S2",
+      "name": "Linear Algebra",
+      "weightage_estimate": 0.12,
+      "topics": [
+        {
+          "name": "Vector Spaces and Matrix Decompositions",
+          "subtopics": [
+            "Vector space, subspaces, linear dependence and independence",
+            "Projection matrix, orthogonal matrix, idempotent matrix, partition matrix",
+            "Quadratic forms",
+            "Eigenvalues, eigenvectors, SVD, LU decomposition, Gaussian elimination"
+          ],
+          "keywords": [
+            "subspace",
+            "orthogonal",
+            "projection matrix",
+            "quadratic form",
+            "positive definite",
+            "svd",
+            "singular value decomposition",
+            "rank-nullity"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DA-S3",
+      "name": "Calculus and Optimization",
+      "weightage_estimate": 0.1,
+      "topics": [
+        {
+          "name": "Single Variable Calculus and Optimization",
+          "subtopics": [
+            "Functions of a single variable, limit, continuity, differentiability",
+            "Taylor series",
+            "Maxima and minima, convex optimization basics"
+          ],
+          "keywords": [
+            "taylor series",
+            "gradient",
+            "convex",
+            "local minima",
+            "global minima",
+            "saddle point"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DA-S4",
+      "name": "Programming, Data Structures and Algorithms",
+      "weightage_estimate": 0.15,
+      "topics": [
+        {
+          "name": "Programming in Python and Data Structures",
+          "subtopics": [
+            "Programming in Python",
+            "Stacks, queues, linked lists, trees, hash tables",
+            "Linear search, binary search, selection sort, bubble sort, insertion sort, mergesort, quicksort, graph traversals and shortest path"
+          ],
+          "keywords": [
+            "python",
+            "list comprehension",
+            "dictionary",
+            "quicksort",
+            "mergesort",
+            "binary search",
+            "bfs",
+            "dfs",
+            "dijkstra"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DA-S5",
+      "name": "Database Management and Warehousing",
+      "weightage_estimate": 0.08,
+      "topics": [
+        {
+          "name": "Relational Databases and Data Warehousing",
+          "subtopics": [
+            "ER-model, relational algebra, tuple calculus, SQL",
+            "Normal forms, file organization, indexing",
+            "Data transformation (normalization, discretization, sampling, compression)",
+            "Multidimensional data models, star/snowflake schemas, concept hierarchies"
+          ],
+          "keywords": [
+            "sql",
+            "relational algebra",
+            "normal form",
+            "data warehouse",
+            "olap",
+            "star schema",
+            "snowflake",
+            "discretization"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DA-S6",
+      "name": "Machine Learning",
+      "weightage_estimate": 0.12,
+      "topics": [
+        {
+          "name": "Supervised Learning",
+          "subtopics": [
+            "Linear regression, ridge regression, logistic regression",
+            "k-NN, naive Bayes, linear discriminant analysis (LDA)",
+            "Support vector machines (SVM), decision trees",
+            "Bias-variance trade-off, cross-validation (LOO, k-fold)",
+            "Multi-layer perceptron, feed-forward neural networks"
+          ],
+          "keywords": [
+            "ridge",
+            "lasso",
+            "logistic regression",
+            "knn",
+            "naive bayes",
+            "lda",
+            "svm",
+            "kernel",
+            "decision tree",
+            "entropy",
+            "gini",
+            "bias-variance",
+            "cross-validation",
+            "mlp",
+            "backpropagation"
+          ]
+        },
+        {
+          "name": "Unsupervised Learning",
+          "subtopics": [
+            "k-means, k-medoids",
+            "Hierarchical clustering (top-down, bottom-up, single/multiple linkage)",
+            "Dimensionality reduction, Principal Component Analysis (PCA)"
+          ],
+          "keywords": [
+            "k-means",
+            "k-medoid",
+            "hierarchical clustering",
+            "dendrogram",
+            "pca",
+            "principal component",
+            "variance explained"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DA-S7",
+      "name": "Artificial Intelligence",
+      "weightage_estimate": 0.08,
+      "topics": [
+        {
+          "name": "Search, Logic and Probabilistic Reasoning",
+          "subtopics": [
+            "Uninformed, informed (A*, greedy) and adversarial search (minimax, alpha-beta pruning)",
+            "Propositional and predicate logic",
+            "Conditional independence, Bayesian networks, variable elimination, approximate inference via sampling"
+          ],
+          "keywords": [
+            "a* search",
+            "heuristic",
+            "admissible",
+            "consistent",
+            "minimax",
+            "alpha-beta",
+            "bayesian network",
+            "d-separation",
+            "variable elimination",
+            "markov blanket"
+          ]
+        }
+      ]
+    }
+  ]
+}

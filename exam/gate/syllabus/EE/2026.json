@@ -1,0 +1,309 @@
+{
+  "paper_code": "EE",
+  "paper_name": "Electrical Engineering",
+  "syllabus_version": "2026.1",
+  "valid_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "source_url": "https://gate2026.iitg.ac.in/doc/GATE2026_Syllabus/EE_2026_Syllabus.pdf",
+  "subjects": [
+    {
+      "code": "GA",
+      "name": "General Aptitude",
+      "weightage_estimate": 0.15,
+      "topics": [
+        {
+          "name": "Verbal Aptitude",
+          "subtopics": [
+            "English grammar",
+            "Sentence completion",
+            "Verbal analogies",
+            "Word groups",
+            "Reading comprehension"
+          ],
+          "keywords": [
+            "grammar",
+            "vocabulary",
+            "comprehension",
+            "inference",
+            "passage"
+          ]
+        },
+        {
+          "name": "Quantitative Aptitude",
+          "subtopics": [
+            "Data interpretation",
+            "Permutations and combinations",
+            "Mensuration and geometry",
+            "Elementary statistics and probability"
+          ],
+          "keywords": [
+            "percentage",
+            "ratio",
+            "work",
+            "time",
+            "pie chart",
+            "bar graph"
+          ]
+        },
+        {
+          "name": "Analytical and Spatial Aptitude",
+          "subtopics": [
+            "Logic: deduction and induction",
+            "Analogy",
+            "Numerical relations",
+            "Transformation of shapes: translation, rotation, scaling, mirroring, assembling, grouping"
+          ],
+          "keywords": [
+            "syllogism",
+            "seating",
+            "folding",
+            "mirror",
+            "rotation",
+            "spatial"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EE-S1",
+      "name": "Engineering Mathematics",
+      "weightage_estimate": 0.13,
+      "topics": [
+        {
+          "name": "Linear Algebra, Calculus & Probability",
+          "subtopics": [
+            "Matrix algebra",
+            "Calculus",
+            "Differential equations",
+            "Complex variables",
+            "Probability and statistics"
+          ],
+          "keywords": [
+            "eigenvalue",
+            "divergence",
+            "laplace",
+            "residue",
+            "probability"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EE-S2",
+      "name": "Electric Circuits",
+      "weightage_estimate": 0.1,
+      "topics": [
+        {
+          "name": "Network Theorems & Three-Phase Circuits",
+          "subtopics": [
+            "KCL, KVL, node and mesh analysis",
+            "Transient response of DC and AC networks",
+            "Sinusoidal steady-state analysis, resonance, two-port networks, balanced three-phase circuits"
+          ],
+          "keywords": [
+            "thevenin",
+            "norton",
+            "transient",
+            "resonance",
+            "three-phase",
+            "two-port"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EE-S3",
+      "name": "Electromagnetic Fields",
+      "weightage_estimate": 0.06,
+      "topics": [
+        {
+          "name": "Electrostatics & Magnetostatics",
+          "subtopics": [
+            "Coulomb's Law, Gauss's Law",
+            "Biot-Savart's Law, Ampere's Law, Faraday's Law",
+            "Self and mutual inductance"
+          ],
+          "keywords": [
+            "gauss law",
+            "capacitance",
+            "inductance",
+            "biot-savart",
+            "faraday"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EE-S4",
+      "name": "Signals and Systems",
+      "weightage_estimate": 0.08,
+      "topics": [
+        {
+          "name": "LTI Systems & Transforms",
+          "subtopics": [
+            "Continuous and discrete-time signals",
+            "Fourier series, Fourier, Laplace and Z-transforms",
+            "Sampling theorem"
+          ],
+          "keywords": [
+            "lti",
+            "convolution",
+            "fourier",
+            "laplace",
+            "z-transform",
+            "nyquist"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EE-S5",
+      "name": "Electrical Machines",
+      "weightage_estimate": 0.12,
+      "topics": [
+        {
+          "name": "Transformers, Induction, Synchronous & DC Machines",
+          "subtopics": [
+            "Single and three-phase transformers",
+            "DC machines",
+            "Three-phase induction motors",
+            "Synchronous machines"
+          ],
+          "keywords": [
+            "transformer",
+            "auto-transformer",
+            "dc motor",
+            "induction motor",
+            "slip",
+            "synchronous generator",
+            "armature reaction"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EE-S6",
+      "name": "Power Systems",
+      "weightage_estimate": 0.12,
+      "topics": [
+        {
+          "name": "Transmission, Load Flow, Faults & Stability",
+          "subtopics": [
+            "Per-unit quantities, bus admittance matrix",
+            "Gauss-Seidel and Newton-Raphson load flow",
+            "Symmetrical and unsymmetrical faults",
+            "Equal area criterion, protection and circuit breakers"
+          ],
+          "keywords": [
+            "per-unit",
+            "y-bus",
+            "newton-raphson",
+            "symmetrical components",
+            "fault",
+            "equal area criterion",
+            "relay"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EE-S7",
+      "name": "Control Systems",
+      "weightage_estimate": 0.09,
+      "topics": [
+        {
+          "name": "Feedback Control & State Space",
+          "subtopics": [
+            "Transfer functions, block diagrams",
+            "Transient and steady-state analysis",
+            "Routh-Hurwitz, Root locus, Bode and Nyquist plots",
+            "State space model"
+          ],
+          "keywords": [
+            "routh",
+            "root locus",
+            "bode",
+            "nyquist",
+            "state space",
+            "phase margin"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EE-S8",
+      "name": "Electrical and Electronic Measurements",
+      "weightage_estimate": 0.05,
+      "topics": [
+        {
+          "name": "Bridges, Instruments & Oscilloscopes",
+          "subtopics": [
+            "Bridges and potentiometers",
+            "PMMC, moving iron, dynamometer wattmeter, energy meters",
+            "Oscilloscopes, error analysis"
+          ],
+          "keywords": [
+            "wheatstone",
+            "maxwell bridge",
+            "schering bridge",
+            "pmmc",
+            "wattmeter",
+            "cro"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EE-S9",
+      "name": "Analog and Digital Electronics",
+      "weightage_estimate": 0.05,
+      "topics": [
+        {
+          "name": "Op-Amps & Logic Circuits",
+          "subtopics": [
+            "Diode, BJT, MOSFET circuits",
+            "Operational amplifiers",
+            "Combinational and sequential logic, A/D and D/A converters"
+          ],
+          "keywords": [
+            "op-amp",
+            "flip-flop",
+            "counter",
+            "adc",
+            "dac"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EE-S10",
+      "name": "Power Electronics",
+      "weightage_estimate": 0.05,
+      "topics": [
+        {
+          "name": "Converters, Choppers & Inverters",
+          "subtopics": [
+            "Power diodes, IGBTs, MOSFETs, thyristors",
+            "DC-DC buck, boost and buck-boost converters",
+            "Single and three-phase bridge rectifiers, voltage source inverters, PWM"
+          ],
+          "keywords": [
+            "thyristor",
+            "scr",
+            "buck converter",
+            "boost converter",
+            "inverter",
+            "thd",
+            "pwm"
+          ]
+        }
+      ]
+    }
+  ]
+}

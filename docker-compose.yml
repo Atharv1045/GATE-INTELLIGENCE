@@ -1,0 +1,108 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: gate_intelligence_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-gate_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-gate_pass}
+      POSTGRES_DB: ${POSTGRES_DB:-gate_intelligence}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-gate_user} -d ${POSTGRES_DB:-gate_intelligence}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    deploy:
+      resources:
+        limits:
+          memory: 1536M
+
+  redis:
+    image: redis:7.2-alpine
+    container_name: gate_intelligence_redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes", "--maxmemory", "256mb", "--maxmemory-policy", "allkeys-lru"]
+    ports:
+      - "6379:6379"
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: gate_intelligence_backend
+    restart: unless-stopped
+    profiles: ["full"]
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgresql+psycopg://gate_user:gate_pass@postgres:5432/gate_intelligence
+      REDIS_URL: redis://redis:6379/0
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./storage:/app/storage
+      - ./exam:/app/exam:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    deploy:
+      resources:
+        limits:
+          memory: 2048M
+
+  celery_worker:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: gate_intelligence_celery
+    restart: unless-stopped
+    profiles: ["full"]
+    command: ["celery", "-A", "app.tasks.celery_app", "worker", "--loglevel=info", "--concurrency=2", "--pool=solo"]
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgresql+psycopg://gate_user:gate_pass@postgres:5432/gate_intelligence
+      REDIS_URL: redis://redis:6379/0
+    volumes:
+      - ./storage:/app/storage
+      - ./exam:/app/exam:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    deploy:
+      resources:
+        limits:
+          memory: 2048M
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: gate_intelligence_frontend
+    restart: unless-stopped
+    profiles: ["full"]
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:
+  redisdata:

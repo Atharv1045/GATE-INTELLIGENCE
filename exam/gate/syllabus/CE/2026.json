@@ -1,0 +1,227 @@
+{
+  "paper_code": "CE",
+  "paper_name": "Civil Engineering",
+  "syllabus_version": "2026.1",
+  "valid_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "source_url": "https://gate2026.iitg.ac.in/doc/GATE2026_Syllabus/CE_2026_Syllabus.pdf",
+  "subjects": [
+    {
+      "code": "GA",
+      "name": "General Aptitude",
+      "weightage_estimate": 0.15,
+      "topics": [
+        {
+          "name": "Verbal Aptitude",
+          "subtopics": [
+            "English grammar",
+            "Sentence completion",
+            "Verbal analogies",
+            "Word groups",
+            "Reading comprehension"
+          ],
+          "keywords": [
+            "grammar",
+            "vocabulary",
+            "comprehension",
+            "inference",
+            "passage"
+          ]
+        },
+        {
+          "name": "Quantitative Aptitude",
+          "subtopics": [
+            "Data interpretation",
+            "Permutations and combinations",
+            "Mensuration and geometry",
+            "Elementary statistics and probability"
+          ],
+          "keywords": [
+            "percentage",
+            "ratio",
+            "work",
+            "time",
+            "pie chart",
+            "bar graph"
+          ]
+        },
+        {
+          "name": "Analytical and Spatial Aptitude",
+          "subtopics": [
+            "Logic: deduction and induction",
+            "Analogy",
+            "Numerical relations",
+            "Transformation of shapes: translation, rotation, scaling, mirroring, assembling, grouping"
+          ],
+          "keywords": [
+            "syllogism",
+            "seating",
+            "folding",
+            "mirror",
+            "rotation",
+            "spatial"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CE-S1",
+      "name": "Engineering Mathematics",
+      "weightage_estimate": 0.13,
+      "topics": [
+        {
+          "name": "Linear Algebra, Calculus, ODE/PDE, Probability & Numerical Methods",
+          "subtopics": [
+            "Matrices",
+            "Calculus",
+            "ODEs/PDEs",
+            "Probability & Statistics",
+            "Numerical Methods"
+          ],
+          "keywords": [
+            "eigenvalue",
+            "simpson",
+            "newton-raphson",
+            "poisson",
+            "normal distribution"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CE-S2",
+      "name": "Structural Engineering",
+      "weightage_estimate": 0.2,
+      "topics": [
+        {
+          "name": "Solid Mechanics, Structural Analysis, Concrete & Steel Structures",
+          "subtopics": [
+            "Bending moment and shear force, Mohr's circle, deflection",
+            "Determinate and indeterminate structures, influence lines, arches",
+            "Limit state design of RCC beams, slabs, columns, prestressed concrete",
+            "Design of tension, compression, flexural steel members and bolted/welded connections"
+          ],
+          "keywords": [
+            "influence line",
+            "moment distribution",
+            "limit state",
+            "prestressed",
+            "shear reinforcement",
+            "plastic hinge",
+            "shape factor"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CE-S3",
+      "name": "Geotechnical Engineering",
+      "weightage_estimate": 0.15,
+      "topics": [
+        {
+          "name": "Soil Mechanics & Foundation Engineering",
+          "subtopics": [
+            "Three-phase system, index properties, permeability and seepage, effective stress",
+            "Compaction and consolidation, Mohr-Coulomb shear strength",
+            "Rankine and Coulomb earth pressure, slope stability, Terzaghi bearing capacity, pile foundations"
+          ],
+          "keywords": [
+            "void ratio",
+            "liquid limit",
+            "plasticity index",
+            "seepage",
+            "effective stress",
+            "consolidation",
+            "terzaghi",
+            "bearing capacity",
+            "pile",
+            "group efficiency"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CE-S4",
+      "name": "Water Resources Engineering",
+      "weightage_estimate": 0.12,
+      "topics": [
+        {
+          "name": "Fluid Mechanics, Hydraulics, Hydrology & Irrigation",
+          "subtopics": [
+            "Pipe networks, open channel flow, hydraulic jump, specific energy",
+            "Hydrologic cycle, unit hydrograph, flood routing, Darcy's law",
+            "Duty, delta, Lacey and Kennedy theories, gravity dams"
+          ],
+          "keywords": [
+            "froude number",
+            "hydraulic jump",
+            "specific energy",
+            "manning",
+            "unit hydrograph",
+            "muskingum",
+            "duty",
+            "delta"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CE-S5",
+      "name": "Environmental Engineering",
+      "weightage_estimate": 0.11,
+      "topics": [
+        {
+          "name": "Water & Wastewater Treatment, Air Pollution & Solid Waste",
+          "subtopics": [
+            "Water quality parameters, sedimentation, filtration, disinfection",
+            "BOD, COD, activated sludge process, trickling filters",
+            "Air pollutants, plume dispersion, municipal solid waste"
+          ],
+          "keywords": [
+            "bod",
+            "cod",
+            "hardness",
+            "alkalinity",
+            "sedimentation",
+            "filtration",
+            "activated sludge",
+            "sludge volume index"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CE-S6",
+      "name": "Transportation Engineering & Geomatics",
+      "weightage_estimate": 0.14,
+      "topics": [
+        {
+          "name": "Geometric Design, Pavement Materials, Traffic Engineering & Surveying",
+          "subtopics": [
+            "Sight distances (SSD, OSD), horizontal and vertical curves",
+            "Marshall mix design, flexible and rigid pavements",
+            "Traffic flow, Greenshields model, signal design (Webster's method)",
+            "Levelling, traversing, photogrammetry"
+          ],
+          "keywords": [
+            "stopping sight distance",
+            "ssd",
+            "superelevation",
+            "marshall mix",
+            "cbr",
+            "greenshields",
+            "webster",
+            "levelling",
+            "bearing"
+          ]
+        }
+      ]
+    }
+  ]
+}

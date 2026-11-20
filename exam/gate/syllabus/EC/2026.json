@@ -1,0 +1,291 @@
+{
+  "paper_code": "EC",
+  "paper_name": "Electronics and Communication Engineering",
+  "syllabus_version": "2026.1",
+  "valid_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "source_url": "https://gate2026.iitg.ac.in/doc/GATE2026_Syllabus/EC_2026_Syllabus.pdf",
+  "subjects": [
+    {
+      "code": "GA",
+      "name": "General Aptitude",
+      "weightage_estimate": 0.15,
+      "topics": [
+        {
+          "name": "Verbal Aptitude",
+          "subtopics": [
+            "English grammar",
+            "Sentence completion",
+            "Verbal analogies",
+            "Word groups",
+            "Reading comprehension"
+          ],
+          "keywords": [
+            "grammar",
+            "vocabulary",
+            "comprehension",
+            "inference",
+            "passage"
+          ]
+        },
+        {
+          "name": "Quantitative Aptitude",
+          "subtopics": [
+            "Data interpretation",
+            "Permutations and combinations",
+            "Mensuration and geometry",
+            "Elementary statistics and probability"
+          ],
+          "keywords": [
+            "percentage",
+            "ratio",
+            "work",
+            "time",
+            "pie chart",
+            "bar graph"
+          ]
+        },
+        {
+          "name": "Analytical and Spatial Aptitude",
+          "subtopics": [
+            "Logic: deduction and induction",
+            "Analogy",
+            "Numerical relations",
+            "Transformation of shapes: translation, rotation, scaling, mirroring, assembling, grouping"
+          ],
+          "keywords": [
+            "syllogism",
+            "seating",
+            "folding",
+            "mirror",
+            "rotation",
+            "spatial"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EC-S1",
+      "name": "Engineering Mathematics",
+      "weightage_estimate": 0.13,
+      "topics": [
+        {
+          "name": "Linear Algebra, Calculus & Differential Equations",
+          "subtopics": [
+            "Vector spaces",
+            "Eigenvalues",
+            "ODE/PDE",
+            "Vector calculus",
+            "Complex analysis",
+            "Probability & Statistics"
+          ],
+          "keywords": [
+            "eigenvalue",
+            "laplace",
+            "cauchy-riemann",
+            "residue",
+            "divergence",
+            "curl"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EC-S2",
+      "name": "Networks, Signals and Systems",
+      "weightage_estimate": 0.14,
+      "topics": [
+        {
+          "name": "Network Theory & Signals",
+          "subtopics": [
+            "Node and mesh analysis",
+            "Thevenin, Norton, Superposition",
+            "Two-port networks",
+            "Continuous and discrete-time signals",
+            "Fourier, Laplace and Z-transforms",
+            "LTI systems"
+          ],
+          "keywords": [
+            "thevenin",
+            "norton",
+            "two-port",
+            "z-parameter",
+            "fourier transform",
+            "z-transform",
+            "roc",
+            "nyquist",
+            "lti"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EC-S3",
+      "name": "Electronic Devices",
+      "weightage_estimate": 0.09,
+      "topics": [
+        {
+          "name": "Semiconductor Physics & Devices",
+          "subtopics": [
+            "Energy bands",
+            "Carrier transport, drift and diffusion",
+            "PN junction diode, Zener diode, BJT, MOS capacitor, MOSFET",
+            "LED, photodiode and solar cell"
+          ],
+          "keywords": [
+            "fermi level",
+            "depletion width",
+            "pn junction",
+            "mosfet",
+            "threshold voltage",
+            "bjt",
+            "drift",
+            "diffusion"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EC-S4",
+      "name": "Analog Circuits",
+      "weightage_estimate": 0.1,
+      "topics": [
+        {
+          "name": "Amplifiers & Operational Amplifiers",
+          "subtopics": [
+            "Diode circuits (clippers, clampers, rectifiers)",
+            "BJT and MOSFET amplifiers",
+            "Frequency response, feedback amplifiers, oscillators",
+            "Op-amp circuits, active filters, timers"
+          ],
+          "keywords": [
+            "op-amp",
+            "cmrr",
+            "slew rate",
+            "barkhausen",
+            "cascode",
+            "current mirror",
+            "clipper",
+            "clamper"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EC-S5",
+      "name": "Digital Circuits",
+      "weightage_estimate": 0.1,
+      "topics": [
+        {
+          "name": "Combinational, Sequential & Data Converters",
+          "subtopics": [
+            "Number representations",
+            "Boolean algebra",
+            "Combinational and sequential circuits",
+            "Data converters (ADC and DAC)",
+            "Semiconductor memories, 8085 microprocessor"
+          ],
+          "keywords": [
+            "k-map",
+            "flip-flop",
+            "counter",
+            "adc",
+            "dac",
+            "sar",
+            "dual slope",
+            "setup time",
+            "hold time"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EC-S6",
+      "name": "Control Systems",
+      "weightage_estimate": 0.1,
+      "topics": [
+        {
+          "name": "Feedback Control & Stability",
+          "subtopics": [
+            "Block diagrams and signal flow graphs",
+            "Time response and steady-state error",
+            "Routh-Hurwitz, Root locus, Bode and Nyquist plots",
+            "Lead, lag and PID compensators, State variable analysis"
+          ],
+          "keywords": [
+            "mason's gain",
+            "routh-hurwitz",
+            "root locus",
+            "bode plot",
+            "nyquist",
+            "gain margin",
+            "phase margin",
+            "controllability",
+            "observability"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EC-S7",
+      "name": "Communications",
+      "weightage_estimate": 0.1,
+      "topics": [
+        {
+          "name": "Analog & Digital Communication",
+          "subtopics": [
+            "Random processes, PSD, autocorrelation",
+            "AM, FM, PM",
+            "PCM, DPCM, ASK, PSK, FSK, QAM, MAP and ML decoding",
+            "Matched filter, SNR, BER, Information theory, Shannon capacity, linear block and cyclic codes"
+          ],
+          "keywords": [
+            "am",
+            "fm",
+            "pcm",
+            "quantization",
+            "bpsk",
+            "qpsk",
+            "matched filter",
+            "entropy",
+            "shannon capacity",
+            "hamming code"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "EC-S8",
+      "name": "Electromagnetics",
+      "weightage_estimate": 0.09,
+      "topics": [
+        {
+          "name": "EM Waves, Transmission Lines & Antennas",
+          "subtopics": [
+            "Maxwell's equations",
+            "Plane waves, Poynting vector, skin depth",
+            "Transmission lines, Smith chart, impedance matching",
+            "Rectangular and circular waveguides, optical fibers, dipole antennas"
+          ],
+          "keywords": [
+            "maxwell",
+            "poynting",
+            "skin depth",
+            "vswr",
+            "reflection coefficient",
+            "waveguide",
+            "cutoff frequency",
+            "antenna",
+            "directivity"
+          ]
+        }
+      ]
+    }
+  ]
+}
