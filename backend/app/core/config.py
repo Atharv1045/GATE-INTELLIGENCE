@@ -34,7 +34,7 @@ class Settings:
         self.MAX_UPLOAD_SIZE_MB: int = int(os.getenv("MAX_UPLOAD_SIZE_MB", "50"))
         self.RATE_LIMIT_PER_MINUTE: int = int(os.getenv("RATE_LIMIT_PER_MINUTE", "120"))
         self.ENABLE_OCR_FALLBACK: bool = os.getenv("ENABLE_OCR_FALLBACK", "true").lower() in ("true", "1", "yes")
-        self.TESSERACT_CMD: str = os.getenv("TESSERACT_CMD", r"C:\Program Files\Tesseract-OCR\tesseract.exe")
+        self.TESSERACT_CMD: str = os.getenv("TESSERACT_CMD", "tesseract")
         self.GEMINI_API_KEY: Optional[str] = os.getenv("GEMINI_API_KEY", None)
         self.GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
         cors_raw = os.getenv(
