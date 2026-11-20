@@ -1,1 +1,77 @@
 
+# Windows shortcuts
+*.lnk
+
+# Local application data
+storage/gate_intelligence.db
+storage/backups/
+storage/uploads/
+storage/processed/
+storage/temp/
+
+# SQLite backups
+*.db
+*.sqlite
+*.sqlite3
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Database & storage
+*.db
+*.sqlite3
+storage/uploads/*
+!storage/uploads/.gitkeep
+storage/processed/*
+!storage/processed/.gitkeep
+storage/temp/*
+!storage/temp/.gitkeep
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/build/
+.vite/
+*.tsbuildinfo
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs & OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Local backend storage
+backend/storage/
+
+# Validation artifacts
+validation/
+
+# Test image assets
+storage/visual_assets/test_asset_*.png
+
+# Temporary test backups
+*.phase8-backup
